@@ -12,7 +12,7 @@ Download twitter.py and the web driver that matches the version of the browser y
     twitter.scrape()
 
 
-## Scrape all the tweets on Github's twitter page, saving them as github_tweets.json
+## Scrape the 100 most recent Tweets on Github's twitter page, saving them as github_tweets.json
 
     from twitter import Twitter
     twitter = Twitter('https://twitter.com/github', 'github_tweets.json')
