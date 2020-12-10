@@ -22,7 +22,7 @@ Download twitter.py and the web driver that matches the version of the browser y
 
 # Potential problems
 
-Sometimes <div> elements contaning tweets will disappear from the DOM structure after the driver.find_elements_by_css_selector() method has been called, which will result in the following error:
+Sometimes <div> elements containing tweets will disappear from the DOM structure after the driver.find_elements_by_css_selector() method has been called, which will result in the following error:
 
         stale element reference: element is not attached to the page document 
         
